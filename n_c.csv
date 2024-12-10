@@ -1,0 +1,21 @@
+Problem Breakdown:
+1. Model Selection:
+I am tasked with selecting the best machine learning model to predict people suffering from heart issues based on the given features in the dataset (SEQN, Age, Gender, and Cardiovascular Health data). The models you need to consider are:
+
+Linear Regression (typically for regression problems)
+Logistic Regression (classification problems, often used for binary classification)
+K-Nearest Neighbors (K-NN) (classification/regression)
+Support Vector Machine (SVM) (classification)
+Decision Trees (DT) (classification/regression)
+Artificial Neural Networks (ANN) (classification)
+You will evaluate each model’s accuracy and precision based on the given dataset.
+
+2. Performance Metrics:
+I will apply performance tuning to each of the above models. The performance metrics you need to calculate are:
+
+Accuracy: Proportion of correct predictions to total predictions.
+Precision: The ratio of correctly predicted positive observations to the total predicted positives.
+3. Dataset Exploration and Processing:
+Select Features: From the NHANES dataset, select the relevant columns for this analysis, including SEQN (participant ID), Age, Gender, and cardiovascular health-related features.
+Age Ranges: Segment the data into age ranges (e.g., 10-20, 21-30, etc.) to understand the distribution of cardiovascular issues across different age groups.
+Gender Distribution: Analyze how many males and females have cardiovascular issues.
